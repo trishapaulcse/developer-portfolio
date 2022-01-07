@@ -3,13 +3,17 @@ body{
     margin: 0;
 }
 h1{
+    font-size: 50px;
+}
+h2{
     font-size: 40px;
 }
 .orange-color{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
+    margin-bottom: 150px;
 }
 .half-width{
     width: 50%;
@@ -42,3 +46,38 @@ p{
     background-position: right;
 
 }
+.color-added{
+    color: orange;
+}
+.experience-item{
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 60%;
+    padding-left: 20px;
+    padding-right: 10px;
+    border-radius: 5px;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+footer p{
+    text-align: center;
+}
+#full-stack-experience{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+#web-dev-experience
+{
+    border-left: 7px solid;
+    border-image: linear-gradient(red ,orange);
+    border-image-slice: 1;    
+}
+.footer-color{
+    color: orangered;
+}
+
